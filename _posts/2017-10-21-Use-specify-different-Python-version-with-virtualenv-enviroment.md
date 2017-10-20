@@ -1,15 +1,16 @@
 ---
 layout: post
-title: You're up and running!
+title: Use different Python version with virtualenv
+
 ---
 
 # Create virtualenv with python version different from the system 
 
 ## Installing virtualenv using pip:
 
-```bash
-pip install virtualenv
-```
+<pre>
+	pip install virtualenv
+</pre>
 
 ## Creating the enviroment
 
@@ -17,17 +18,17 @@ Note that we used C:\Users\myUser\AppData\Local\Programs\Python\Python36-32\pyth
 Use your own path off the version you want to use in the enviroment
 If you dismiss this parameter default python version will be used
 
-```bash
+<pre>
 virtualenv --python=C:\Users\myUser\AppData\Local\Programs\Python\Python36-32\python.exe envname
 cd envname/Scripts
 activate
 cd ..
 cd ..
-```
+</pre>
 
 ## Upgrade pip and install more libs
 
-```bash
+<pre>
 pip3 install --upgrade pip
 install -r requirements.txt
-```
+</pre>
