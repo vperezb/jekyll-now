@@ -3,9 +3,6 @@ layout: post
 title: Use different Python version with virtualenv
 
 ---
-
-# Create virtualenv with python version different from the system 
-
 ## Installing virtualenv using pip:
 
 <pre>
