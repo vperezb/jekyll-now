@@ -11,7 +11,7 @@ Barcelona, Catalonia
 ### Interests
 
 Python | Data | APIs | 
-
+ 
 ### Contact me
 
 [victor.perez.berruezo@gmail.com](victor.perez.berruezo@gmail.com)
