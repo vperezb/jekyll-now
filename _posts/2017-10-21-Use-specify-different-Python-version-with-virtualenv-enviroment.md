@@ -5,9 +5,7 @@ title: Use different Python version with virtualenv
 ---
 ## Installing virtualenv using pip:
 
-<pre>
-	pip install virtualenv
-</pre>
+> pip install virtualenv
 
 ## Creating the enviroment
 
