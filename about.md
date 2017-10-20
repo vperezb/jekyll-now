@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Mobile APPs Business Analyst @Tiendeo
+Tiendeo.com | Universitat Politècnica de Catalunya
+Barcelona, Catalonia
 
-### More Information
+### Interests
 
-A place to include any other types of information that you'd like to include about yourself.
+Python | Data | APIs | 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[victor.perez.berruezo@gmail.com](victor.perez.berruezo@gmail.com)
