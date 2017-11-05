@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Mobile APPs Business Analyst @Tiendeo
-Tiendeo.com | Universitat Politècnica de Catalunya
+Mobile APPs Business Analyst - www.tiendeo.com
+
+ETSEIB - Universitat Politècnica de Catalunya
+
 Barcelona, Catalonia
 
 ### Interests
