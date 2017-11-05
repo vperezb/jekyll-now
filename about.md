@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Mobile APPs Business Analyst - www.tiendeo.com
+Mobile APPs Business Analyst - Tiendeo 
+* Web: [www.tiendeo.com](www.tiendeo.com)
+* App: [https://www.tiendeo.com/_apps?utm_source=vperezb.github.io](APP Tiendeo)
 
 ETSEIB - Universitat Politècnica de Catalunya
 
@@ -16,4 +18,4 @@ Python | Data | APIs |
  
 ### Contact me
 
-[victor.perez.berruezo@gmail.com](victor.perez.berruezo@gmail.com)
+[mailto:victor.perez.berruezo@gmail.com](victor.perez.berruezo@gmail.com)
