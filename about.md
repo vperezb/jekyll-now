@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
+### Current position
+![](https://www.tiendeo.com/info/en/wp-content/uploads/2016/10/logo_tiendeotech_red.svg =250x)
 Mobile APPs Business Analyst - Tiendeo 
 * Web: [www.tiendeo.com](https://www.tiendeo.com)
 * App: [APP Tiendeo](https://www.tiendeo.com/_apps?utm_source=vperez.github.io)
 
-ETSEIB - Universitat Politècnica de Catalunya
+🎓 ETSEIB - Universitat Politècnica de Catalunya
 
-Barcelona, Catalonia
+📍 Barcelona, Catalonia
 
-### 
+### Software I'm familiar with
+
 * Mobile:
 	+ Firebase
 		- Firebase Cloud Messaging
@@ -23,7 +26,7 @@ Barcelona, Catalonia
 * AWS:
 	+ S3
 	+ Athena
-* Python:
+* Python:▓▓▓░░
 	+ pandas [***]
 	+ jupyter notebook [***]
 	+ tweepy [****]
@@ -38,7 +41,7 @@ Barcelona, Catalonia
 	+ SEOFrog web crawler
 	+ SEM Rush
 	+ Google Analytics (web)
-	+ Google Spreadsheets - Analytics connector
+	+ Google Spreadsheets - Analytics connector 
 * OS:
 	+ Windows [****]
 	+ Linux [**]
