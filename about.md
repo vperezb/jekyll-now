@@ -5,7 +5,6 @@ permalink: /about/
 ---
 
 ### Current position
-![assa](https://www.tiendeo.com/info/en/wp-content/uploads/2016/10/logo_tiendeotech_red.svg =250x)
 <img src="https://www.tiendeo.com/info/en/wp-content/uploads/2016/10/logo_tiendeotech_red.svg" alt="Drawing" style="width: 200px;"/>
 
 Mobile APPs Business Analyst - Tiendeo 
