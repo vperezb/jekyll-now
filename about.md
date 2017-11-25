@@ -27,7 +27,7 @@ Mobile APPs Business Analyst - Tiendeo
 * AWS:
 	+ S3
 	+ Athena
-* Python:▓▓▓░░
+* Python:
 	+ pandas [***]
 	+ jupyter notebook [***]
 	+ tweepy [****]
@@ -38,11 +38,11 @@ Mobile APPs Business Analyst - Tiendeo
 	+ sqlalchemy [***]
 	+ 
 * SEO
-	+ Google Adwords
-	+ SEOFrog web crawler
-	+ SEM Rush
-	+ Google Analytics (web)
-	+ Google Spreadsheets - Analytics connector 
+	+ Google Adwords [****]
+	+ SEOFrog web crawler [****]
+	+ SEM Rush [**]
+	+ Google Analytics (web) [***]
+	+ Google Spreadsheets - Analytics connector [***]
 * OS:
 	+ Windows [****]
 	+ Linux [**]
