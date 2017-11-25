@@ -12,8 +12,40 @@ ETSEIB - Universitat Politècnica de Catalunya
 
 Barcelona, Catalonia
 
-### Interests
-
+### 
+* Mobile:
+	+ Firebase
+		- Firebase Cloud Messaging
+		- Dynamic Links
+	+ DeepLinking
+	+ FusedLocation
+	+ Geofencing
+* AWS:
+	+ S3
+	+ Athena
+* Python:
+	+ pandas [***]
+	+ jupyter notebook [***]
+	+ tweepy [****]
+	+ Google APIs [****]
+	+ httplib [***]
+	+ flask [**]
+	+ django [*]
+	+ sqlalchemy [***]
+	+ 
+* SEO
+	+ Google Adwords
+	+ SEOFrog web crawler
+	+ SEM Rush
+	+ Google Analytics (web)
+	+ Google Spreadsheets - Analytics connector
+* OS:
+	+ Windows [****]
+	+ Linux [**]
+	
+	
+	
+	
 Python | Data | APIs | 
  
 ### Contact me
