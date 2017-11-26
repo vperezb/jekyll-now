@@ -12,14 +12,14 @@ Mobile APPs Business Analyst - Tiendeo
 * Web: [www.tiendeo.com](https://www.tiendeo.com)
 * App: [APP Tiendeo](https://www.tiendeo.com/_apps?utm_source=vperez.github.io)
 
-🎓 ETSEIB - Universitat Politècnica de Catalunya
+:mortar_board: ETSEIB - Universitat Polit�cnica de Catalunya
 
-📍 Barcelona, Catalonia
+:round_pushpin: Barcelona, Catalonia
 
 ### Software I'm familiar with
 
 * Mobile:
-	+ Firebase [***]
+	+ Firebase :white_circle::white_circle::black_circle::black_circle::black_circle:
 		- Firebase Cloud Messaging [***]
 		- Dynamic Links [*]
 		- Crashlytics [**]
