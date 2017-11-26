@@ -2,9 +2,8 @@
 layout: post
 title: Upload a file to S3 using boto3 python3 lib
 ---
+How to upload a file from your computer to Amazon Web Services S3 using python3 and `boto3`.
 
-
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <title>upload_file_to_s3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
