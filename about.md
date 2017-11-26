@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: About
 permalink: /about/
@@ -11,17 +11,17 @@ Mobile APPs Business Analyst - Tiendeo
 * Web: [www.tiendeo.com](https://www.tiendeo.com)
 * App: [APP Tiendeo](https://www.tiendeo.com/_apps?utm_source=vperez.github.io)
 
-:mortar_board: ETSEIB - Universitat Polit�cnica de Catalunya
+🎓 ETSEIB - Universitat Politècnica de Catalunya
 
-:round_pushpin: Barcelona, Catalonia
+📍 Barcelona, Catalonia
 
 ### Skills
 
 * Mobile:
 	+ Firebase :white_circle::white_circle::black_circle::black_circle::black_circle:
-		- Firebase Cloud Messaging [***]
-		- Dynamic Links [*]
-		- Crashlytics [**]
+		- Firebase Cloud Messaging ⚪️⚪️⚫️⚫️⚫️
+		- Dynamic Links ◽️◽️◽️◽️◾️
+		- Crashlytics ⬜️⬜️⬜️⬛️⬛️
 		- Analytics [**]
 		- RemoteConfigs [*]
 	+ DeepLinking [****]
