@@ -41,6 +41,8 @@ Mobile APPs Business Analyst - Tiendeo
 	+ flask ◾️◾️◽️◽️◽️
 	+ django ◾️◽️◽️◽️◽️
 	+ sqlalchemy ◾️◾️◾️◽️◽️
+* Data:
+	+ SQL ◾️◾️◾️◾️◽️
 * SEO:
 	+ Google Adwords ◾️◾️◾️◾️◽️
 	+ SEOFrog web crawler ◾️◾️◾️◾️◽️
@@ -59,7 +61,7 @@ Mobile APPs Business Analyst - Tiendeo
 * Management:
 	+ Redmine ◾️◾️◾️◽️◽️
 	+ Scrum ◾️◾️◾️◽️◽️ 
-	
+		
 ### Contact me
 
 [victor.perez.berruezo@gmail.com](mailto:victor.perez.berruezo@gmail.com)
