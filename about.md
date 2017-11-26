@@ -59,6 +59,7 @@ Mobile APPs Business Analyst - Tiendeo
 * Management:
 	+ Redmine ◾️◾️◾️◽️◽️
 	+ Scrum ◾️◾️◾️◽️◽️ 
+	
 ### Contact me
 
 [victor.perez.berruezo@gmail.com](mailto:victor.perez.berruezo@gmail.com)
