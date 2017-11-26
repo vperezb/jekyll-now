@@ -18,29 +18,29 @@ Mobile APPs Business Analyst - Tiendeo
 ### Skills
 
 * Mobile:
-	+ Firebase :white_circle::white_circle::black_circle::black_circle::black_circle:
-		- Firebase Cloud Messaging ⚪️⚪️⚫️⚫️⚫️
-		- Dynamic Links ◽️◽️◽️◽️◾️
-		- Crashlytics ⬜️⬜️⬜️⬛️⬛️
-		- Analytics [**]
-		- RemoteConfigs [*]
-	+ DeepLinking [****]
-	+ FusedLocation [***]
-	+ Geofencing [****]
+	+ Firebase:
+		- Firebase Cloud Messaging
+		- ◾️◽️◽️◽️◽️ Dynamic Links
+		- ◾️◾️◽️◽️◽️ Crashlytics
+		- ◾️◾️◽️◽️◽️ Analytics
+		- ◾️◽️◽️◽️◽️ RemoteConfigs
+	+ ◾️◾️◾️◾️◽️ DeepLinking
+	+ ◾️◾️◾️◽️◽️ FusedLocation
+	+ ◾️◾️◾️◾️◽️ Geofencing
 * AWS:
-	+ S3 [***]
-	+ Athena [***]
+	+ S3 ◾️◾️◾️◽️◽️ 
+	+ Athena ◾️◾️◾️◽️◽️ 
 * Python:
-	+ boto3 [***]
-	+ pandas [***]
-	+ jupyter notebook [***]
-	+ tweepy [****]
-	+ Google APIs [****]
-	+ Unofficial Instagram API [***]
-	+ httplib [***]
-	+ flask [**]
-	+ django [*]
-	+ sqlalchemy [***]
+	+ boto3 ◾️◾️◾️◽️◽️ 
+	+ pandas ◾️◾️◾️◽️◽️ 
+	+ jupyter notebook ◾️◾️◾️◽️◽️ 
+	+ tweepy ◾️◾️◾️◾️◽️ 
+	+ Google APIs ◾️◾️◾️◾️◽️ 
+	+ Unofficial Instagram API ◾️◾️◾️◽️◽️ 
+	+ httplib ◾️◾️◾️◽️◽️ 
+	+ flask ◾️◾️◽️◽️◽️ 
+	+ django ◾️◽️◽️◽️◽️ 
+	+ sqlalchemy ◾️◾️◾️◽️◽️ 
 * SEO:
 	+ Google Adwords [****]
 	+ SEOFrog web crawler [****]
