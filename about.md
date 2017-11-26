@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-### Current position
+### Current
 
 <img src="https://www.tiendeo.com/info/en/wp-content/uploads/2016/10/logo_tiendeotech_red.svg" alt="Drawing" style="width: 200px;"/>
 
@@ -16,7 +15,7 @@ Mobile APPs Business Analyst - Tiendeo
 
 :round_pushpin: Barcelona, Catalonia
 
-### Software I'm familiar with
+### Skills
 
 * Mobile:
 	+ Firebase :white_circle::white_circle::black_circle::black_circle::black_circle:
