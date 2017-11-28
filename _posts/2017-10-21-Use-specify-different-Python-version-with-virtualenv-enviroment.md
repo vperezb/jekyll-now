@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use different Python version with virtualenv
-
+tags: [python,virtualenv]
 ---
 
 ## Installing virtualenv using pip:
