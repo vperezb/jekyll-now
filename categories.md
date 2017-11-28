@@ -1,23 +1,35 @@
 ﻿---
-layout: page
+layout: default
 title: Categories
 permalink: /categories/
 ---
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-    
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+<ul class="tag-box inline">
+{% assign tags_list = site.categories %}  
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %} 
+      <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
     {% endfor %}
-  </div>
+  {% else %}
+    {% for tag in tags_list %} 
+      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>
+
+{% for tag in site.categories %} 
+  <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+  <ul class="post-list">
+    {% assign pages_list = tag[1] %}  
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
 {% endfor %}
-</div>
