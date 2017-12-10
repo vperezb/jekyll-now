@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Working with Jupyter Notebooks from scratch in Windows
+categories: [python]
+
 ---
 
 By following this steps you will be able to work with Jupyter Notebooks using Python3 in Windows.

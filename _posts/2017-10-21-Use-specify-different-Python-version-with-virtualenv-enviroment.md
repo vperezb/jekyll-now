@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use different Python version with virtualenv
+categories: [python]
 tags: [python,virtualenv]
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Making HTTPS request in Python3
+categories: [python]
+
 ---
 
 Using `urllib3` & `certifi` and few lines of code.
