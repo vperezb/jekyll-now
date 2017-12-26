@@ -61,7 +61,7 @@ df = pd.read_csv(io.BytesIO(obj['Body'].read()), encoding='utf8')
 df
 ```
 
-<table border="1" class="dataframe">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>name</th>\n      <th>sex</th>\n      <th>city</th>\n      <th>country</th>\n      <th>age</th>\n      <th>job</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Bob</td>\n      <td>M</td>\n      <td>Los Angeles</td>\n      <td>USA</td>\n      <td>40</td>\n      <td>Actor Extraordinaire</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Joe</td>\n      <td>M</td>\n      <td>New York</td>\n      <td>USA</td>\n      <td>35</td>\n      <td>Policeman</td>\n    </tr>\n  </tbody>\n</table>
+<table border="1px solid black">  <thead>    <tr style="text-align: right;">      <th></th>      <th>name</th>      <th>sex</th>      <th>city</th>      <th>country</th>      <th>age</th>      <th>job</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>Bob</td>      <td>M</td>      <td>Los Angeles</td>      <td>USA</td>      <td>40</td>      <td>Actor Extraordinaire</td>    </tr>    <tr>      <th>1</th>      <td>Joe</td>      <td>M</td>      <td>New York</td>      <td>USA</td>      <td>35</td>      <td>Policeman</td>    </tr>  </tbody></table>
 
 ## All togeather
 
