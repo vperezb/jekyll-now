@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Download a file from S3 using boto3 python3 lib
+title: Download a csv file from s3 and create a pandas.dataframe
 categories: [python]
 tags: [s3, boto3, AWS]
 ---
