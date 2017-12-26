@@ -2,7 +2,7 @@
 layout: post
 title: Upload a file to S3 using boto3 python3 lib
 categories: [python]
-tags: [s3, boto3]
+tags: [s3, boto3, AWS]
 ---
 How to upload a file from your computer to Amazon Web Services S3 using python3 and `boto3`.
 
@@ -12,7 +12,7 @@ How to upload a file from your computer to Amazon Web Services S3 using python3 
 import boto3
 ```
 
-(`pip3 install boto3` if isn't already installed)
+(`pip3 install boto3` if not installed)
 
 ### Set region and credentials
 

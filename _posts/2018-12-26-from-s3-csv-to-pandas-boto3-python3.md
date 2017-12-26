@@ -4,15 +4,17 @@ title: Download a file from S3 using boto3 python3 lib
 categories: [python]
 tags: [s3, boto3, AWS]
 ---
-How to download a file from Amazon Web Services S3 to  your computer using python3 and `boto3`.
+How to download a **.csv** file from Amazon Web Services S3 and create a **pandas.dataframe** using python3 and `boto3`.
 
-### Import boto3
+### Import lib
 
 ```python
 import boto3
+import pandas as pd
+import io
 ```
 
-(`pip3 install boto3` if not installed)
+(`pip3 install boto3 pandas` if not installed)
 
 ### Set region and credentials
 
@@ -40,13 +42,6 @@ KEY = 'path/in/s3/namefile.txt' # file path in S3
 
 * Caution: The path does not include the starting `/` 
 
-### Select file destination in your computer
-
-
-```python
-PATH_IN_COMPUTER = 'path/in/computer/namefile.txt'
-```
-
 ### Download the file from S3
 
 ```python
@@ -57,20 +52,23 @@ s3c = boto3.client(
         aws_secret_access_key = SECRET_ACCESS_KEY
     )
 
-obj = s3c.get_object(Bucket= BUCKET_NAME , Key = KEY)
-file_text = obj['Body'].read().decode('utf-8')
+obj = s3c.get_object(Bucket= bucket , Key = key)
+df = pd.read_csv(io.BytesIO(obj['Body'].read()), encoding='utf8')
 ```
-# Save the file to disk
+# Print dataframe
 
 ```python
-with open(PATH_IN_COMPUTER, "w") as myfile:
-    myfile.write(file_text)
+df
 ```
+
+<table border="1" class="dataframe">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>name</th>\n      <th>sex</th>\n      <th>city</th>\n      <th>country</th>\n      <th>age</th>\n      <th>job</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Bob</td>\n      <td>M</td>\n      <td>Los Angeles</td>\n      <td>USA</td>\n      <td>40</td>\n      <td>Actor Extraordinaire</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Joe</td>\n      <td>M</td>\n      <td>New York</td>\n      <td>USA</td>\n      <td>35</td>\n      <td>Policeman</td>\n    </tr>\n  </tbody>\n</table>
 
 ## All togeather
 
 ```python
 import boto3
+import pandas as pd
+import io
 
 REGION = 'us-east-1'
 ACCESS_KEY_ID = 'paste_here_your_key_id'
@@ -79,8 +77,6 @@ SECRET_ACCESS_KEY = 'paste_here_your_secret_access_key'
 BUCKET_NAME = 'vperezb'
 KEY = 'path/in/s3/namefile.txt' # file path in S3 
 
-PATH_IN_COMPUTER = 'path/in/computer/namefile.txt'
-
 s3c = boto3.client(
         's3', 
         region_name = REGION,
@@ -88,9 +84,7 @@ s3c = boto3.client(
         aws_secret_access_key = SECRET_ACCESS_KEY
     )
 
-obj = s3c.get_object(Bucket= BUCKET_NAME , Key = KEY)
-file_text = obj['Body'].read().decode('utf-8')
-
-with open(PATH_IN_COMPUTER, "w") as myfile:
-    myfile.write(file_text)
+obj = s3c.get_object(Bucket= bucket , Key = key)
+df = pd.read_csv(io.BytesIO(obj['Body'].read()), encoding='utf8')
+df
 ```
