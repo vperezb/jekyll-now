@@ -9,7 +9,7 @@ permalink: /tags/
 {% assign categories_list = site.tags %}
   {% if categories_list.first[0] == null %}
     {% for category in categories_list %}
-		{% unless category contains 'cooking' %}
+		{% unless site.tags[tags] contains 'cooking' %}
       <li><a href="#{{ category }}">{{ category | capitalize }} ({{ site.tags[tags].size }})</a></li>
 		{% endunless %}
     {% endfor %}
