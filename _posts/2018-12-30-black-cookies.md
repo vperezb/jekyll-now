@@ -11,16 +11,16 @@ _30 minutes_
 
 ## Ingredients
 
-* | 150g | fondant chocolate
-* | 100g | butter
-* | 180g | sugar
-* | A pinch | of salt
-* | 1 teaspoon | vanille essence
-* | 115g | flour
-* | 1/2 teaspoon | baking powder
-* | 2 tablespoon | cocoa powder
-* | 80g | nuts or chocolate chips 
-* | 2 | eggs
+| 150g | fondant chocolate
+| 100g | butter
+| 180g | sugar
+| A pinch | of salt
+| 1 teaspoon | vanille essence
+| 115g | flour
+| 1/2 teaspoon | baking powder
+| 2 tablespoon | cocoa powder
+| 80g | nuts or chocolate chips 
+| 2 | eggs
 
 
 ## Directions
