@@ -5,6 +5,8 @@ categories: [tech]
 tags: [python,virtualenv, devops]
 ---
 
+How to create a virtualenv with another version of python (not the system default)
+
 ## Installing virtualenv using pip:
 
 ```bash
@@ -13,7 +15,7 @@ pip install virtualenv
 
 ## Creating the enviroment
 
-Note that we used C:\Users\myUser\AppData\Local\Programs\Python\Python36-32\python.exe 
+Note that we used `C:\Users\myUser\AppData\Local\Programs\Python\Python36-32\python.exe`
 Use your own path off the version you want to use in the enviroment
 If you dismiss this parameter default python version will be used
 
