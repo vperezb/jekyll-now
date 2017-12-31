@@ -40,7 +40,7 @@ BUCKET_NAME = 'vperezb'
 KEY = 'path/in/s3/namefile.txt' # file path in S3 
 ```
 
-* Caution: The path does not include the starting `/` 
+> Caution: The path does not include the starting `/` 
 
 ### Download the file from S3
 
@@ -55,7 +55,8 @@ s3c = boto3.client(
 obj = s3c.get_object(Bucket= BUCKET_NAME , Key = KEY)
 df = pd.read_csv(io.BytesIO(obj['Body'].read()), encoding='utf8')
 ```
-# Print dataframe
+
+### Print dataframe
 
 ```python
 df
@@ -63,6 +64,7 @@ df
 
 <table>  <thead>    <tr style="text-align: right;">      <th></th>      <th>name</th>      <th>sex</th>      <th>city</th>      <th>country</th>      <th>age</th>      <th>job</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>Bob</td>      <td>M</td>      <td>Los Angeles</td>      <td>USA</td>      <td>40</td>      <td>Actor Extraordinaire</td>    </tr>    <tr>      <th>1</th>      <td>Joe</td>      <td>M</td>      <td>New York</td>      <td>USA</td>      <td>35</td>      <td>Policeman</td>    </tr>  </tbody></table>
 <!--http://johnsardine.com/freebies/dl-html-css/simple-little-tab/-->
+
 ## All togeather
 
 ```python
