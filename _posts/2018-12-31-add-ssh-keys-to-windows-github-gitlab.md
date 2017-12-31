@@ -42,8 +42,6 @@ Once is opened:
 
 ### Brief introduction to Git
 
-#### Tell Git who you are
-
 First, you need to tell Git who you are:
 
 ```git
