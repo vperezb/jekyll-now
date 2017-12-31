@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add ssh on Windows
+title: How to add SSH keys on Windows
 categories: [tech]
 tags: [devops, git]
 
