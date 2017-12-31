@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Use different Python version with virtualenv
-categories: [python]
-tags: [python,virtualenv]
+categories: [tech]
+tags: [python,virtualenv, devops]
 ---
 
 ## Installing virtualenv using pip:

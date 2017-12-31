@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Upload a file to S3 using boto3 python3 lib
-categories: [python]
-tags: [s3, boto3, AWS]
+categories: [tech]
+tags: [s3, boto3, AWS, python]
 ---
 How to upload a file from your computer to Amazon Web Services S3 using python3 and `boto3`.
 
-### Import boto3
+## Import boto3
 
 ```python
 import boto3
@@ -14,7 +14,7 @@ import boto3
 
 (`pip3 install boto3` if not installed)
 
-### Set region and credentials
+## Set region and credentials
 
 First we need to select the region where the bucket is placed and your account credentials.
 
@@ -31,21 +31,21 @@ ACCESS_KEY_ID = 'paste_here_your_key_id'
 SECRET_ACCESS_KEY = 'paste_here_your_secret_access_key'
 ```
 
-### Select file to upload (computer)
+## Select file to upload (computer)
 
 
 ```python
 PATH_IN_COMPUTER = 'path/in/computer/namefile.txt'
 ```
 
-### Select file destination (AWS S3)
+## Select file destination (AWS S3)
 
 ```python
 BUCKET_NAME = 'vperezb'
 KEY = 'path/in/s3/namefile.txt' # file path in S3 
 ```
 
-### Upload the file to S3
+## Upload the file to S3
 
 ```python
 s3_resource = boto3.resource(

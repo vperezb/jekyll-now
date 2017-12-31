@@ -2,7 +2,7 @@
 layout: post
 title: How to add SSH keys on Windows
 categories: [tech]
-tags: [devops, git]
+tags: [devops, git, ssh]
 
 ---
 
@@ -13,7 +13,7 @@ Few easy steps to add new ssh keys to syncronize a computer with your Github/Git
 We will need to create a key pair,  a `public` for the Git server and a `private`  for the computer. And then add the key into our 
 Gitlab or Github account.
 
-### Generate the ssh pair and save the private one in the computer
+## Generate the ssh pair and save the private one in the computer
 
 I use `PuTTYgen`, you can download it (here)[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html] choose `puttygen.exe (a RSA and DSA key generation utility)`
 
@@ -29,7 +29,7 @@ Once is opened:
 > The file path will be: `C\Users\vperezb/.ssh/id_rsa`
 
 
-### Add the public key to Gitlab or Github
+## Add the public key to Gitlab or Github
 
 0. Copy the public key you've created (is under the text `Public key for pasting into OpenSSH authorized_keys file`).
 0. Open your Github or Gitlab account and go into SSH keys settings screen.
@@ -40,47 +40,7 @@ Once is opened:
 
 *GRATZ! Now you can start working with Git!*
 
-### Brief introduction to Git
-
-First, you need to tell Git who you are:
-
-```git
-git config --global user.email "victor.perez.berruezo@gmail.com"
-git config --global user.name "vperezb"
-```
-
-Clone the repo:
-
-```git
-git clone git@path/user/repo
-```
-
-To stash all:
-
-```git
-git add .
-```
-
-To stash specific file:
-
-```git
-git add <file>
-```
-
-To commit:
-
-```git
-git commit -m  "this is the commit message"
-```
-
-To push to the server:
-
-```git
-git push origin master
-```
-
-
-### Common ssh error
+## Common ssh error
 
 ```bash
 Permission denied (publickey).

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Download a file from S3 using boto3 python3 lib
-categories: [python]
-tags: [s3, boto3, AWS]
+categories: [tech]
+tags: [s3, boto3, AWS, python]
 ---
 How to download a file from Amazon Web Services S3 to  your computer using python3 and `boto3`.
 
-### Import boto3
+## Import boto3
 
 ```python
 import boto3
@@ -14,7 +14,7 @@ import boto3
 
 (`pip3 install boto3` if not installed)
 
-### Set region and credentials
+## Set region and credentials
 
 First we need to select the region where the bucket is placed and your account credentials.
 
@@ -31,7 +31,7 @@ ACCESS_KEY_ID = 'paste_here_your_key_id'
 SECRET_ACCESS_KEY = 'paste_here_your_secret_access_key'
 ```
 
-### Select file location in AWS S3
+## Select file location in AWS S3
 
 ```python
 BUCKET_NAME = 'vperezb'
@@ -40,14 +40,14 @@ KEY = 'path/in/s3/namefile.txt' # file path in S3
 
 * Caution: The path does not include the starting `/` 
 
-### Select file destination in your computer
+## Select file destination in your computer
 
 
 ```python
 PATH_IN_COMPUTER = 'path/in/computer/namefile.txt'
 ```
 
-### Download the file from S3
+## Download the file from S3
 
 ```python
 s3c = boto3.client(
@@ -60,7 +60,8 @@ s3c = boto3.client(
 obj = s3c.get_object(Bucket= BUCKET_NAME , Key = KEY)
 file_text = obj['Body'].read().decode('utf-8')
 ```
-# Save the file to disk
+
+## Save the file to disk
 
 ```python
 with open(PATH_IN_COMPUTER, "w") as myfile:

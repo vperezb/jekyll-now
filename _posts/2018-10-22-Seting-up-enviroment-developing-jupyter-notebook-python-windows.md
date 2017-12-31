@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Working with Jupyter Notebooks from scratch in Windows
-categories: [python]
+categories: [tech]
+tags: [python, devops]
 
 ---
 

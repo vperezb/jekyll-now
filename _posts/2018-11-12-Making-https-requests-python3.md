@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Making HTTPS request in Python3
-categories: [python]
+categories: [tech]
+tags: [python]
 
 ---
 

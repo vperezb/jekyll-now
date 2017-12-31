@@ -43,6 +43,7 @@ Mobile APPs Business Analyst - Tiendeo
 	+ sqlalchemy ◾️◾️◾️◽️◽️
 * Data:
 	+ SQL ◾️◾️◾️◾️◽️
+	+ Excel ◾️◾️◾️◾️◽️
 * SEO:
 	+ Google Adwords ◾️◾️◾️◾️◽️
 	+ SEOFrog web crawler ◾️◾️◾️◾️◽️
@@ -57,10 +58,10 @@ Mobile APPs Business Analyst - Tiendeo
 	+ Windows ◾️◾️◾️◾️◽️
 	+ Linux ◾️◾️◽️◽️◽️
 * Version controlling:
-	+ Git (Gitflow)
+	+ Git ◾️◾️◽️◽️◽️
 * Management:
 	+ Redmine ◾️◾️◾️◽️◽️
-	+ Scrum ◾️◾️◾️◽️◽️ 
+	+ Scrum ◾️◾️◽️◽️◽️
 		
 ### Contact me
 

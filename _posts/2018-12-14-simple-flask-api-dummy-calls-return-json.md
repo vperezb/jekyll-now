@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Simple Flask API to Mobile development
-categories: [python]
-tags: [flask]
+categories: [tech]
+tags: [flask, python]
 ---
 How to deploy a simple API who returns json when calling it via http.
-
-### 
 
 ```python
 #!/usr/bin/env python
