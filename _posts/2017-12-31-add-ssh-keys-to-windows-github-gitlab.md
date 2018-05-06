@@ -15,7 +15,7 @@ Gitlab or Github account.
 
 ## Generate the ssh pair and save the private one in the computer
 
-I use `PuTTYgen`, you can download it (here)[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html] choose `puttygen.exe (a RSA and DSA key generation utility)`
+I use `PuTTYgen`, you can download it [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) choose `puttygen.exe (a RSA and DSA key generation utility)`
 
 Once is opened:
 
@@ -23,11 +23,10 @@ Once is opened:
 0. Move the mouse through the blank area
 0. (optional) Change `Key comment` field so you can identify the key i.e. `home-desktop`
 0. Click `Conversions` > `Export OpenSSH key` on the toolbar
-0. Save it into  `~/.ssh/id_rsa`
+0. Save it into  `~/.ssh/my_custom_key_name`
+0. Add the brand new created key entering `eval \`ssh-agent -s\`` and then `ssh-add ~/.ssh/my_custom_key_name`
 
-> In my computer I will place the file called `id_rsa` *without extension* inside the folder `.ssh` located in `C\Users\vperezb`
-> The file path will be: `C\Users\vperezb/.ssh/id_rsa`
-
+> If you need acess to two different git accounts, repeat the process by saving the key with a new name
 
 ## Add the public key to Gitlab or Github
 
