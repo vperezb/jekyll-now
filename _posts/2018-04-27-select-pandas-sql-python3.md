@@ -18,7 +18,7 @@ def dataframefromquery(engine, query):
     for chunk in sqldata:
         data = data.append(chunk, ignore_index=True)    
     return data 
-	
+    
 __CONNECTION_STRING = 'DRIVER={{SQL Server}};SERVER={Host};Database={DBname};UID={User};PWD={Password};Encrypt=true'
 
 sql_credentials ={
