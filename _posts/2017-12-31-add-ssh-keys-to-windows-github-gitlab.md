@@ -24,7 +24,9 @@ Once is opened:
 0. (optional) Change `Key comment` field so you can identify the key i.e. `home-desktop`
 0. Click `Conversions` > `Export OpenSSH key` on the toolbar
 0. Save it into  `~/.ssh/my_custom_key_name`
-0. Add the brand new created key entering `eval $(ssh-agent -s)` and then `ssh-add ~/.ssh/my_custom_key_name`
+0. Add the brand new created key entering (*ONLY TESTED USING GIT BASH*):
+	+ `eval $(ssh-agent -s)` that returns something like `Agent pid 123456`.
+	+ Then `ssh-add ~/.ssh/my_custom_key_name` returning `Identity added: /c/...blablabla`.
 
 > If you need acess to two different git accounts, repeat the process by saving the key with a new name
 
